@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+	flex: auto;
+}
+
+article {
+	flex: 2;
+	overflow-y: auto;
+	background-color: #F2D2BD;
+}
+
+aside {
+	flex: 1;
+	overflow-y: auto;
+}
+
+footer, header {
+	background-color: rgb(152, 251, 152);
+}
